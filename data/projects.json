@@ -21,7 +21,7 @@
             "name": "Microwave Calculator",
             "aboutShort": "Description: A quick calculator to take your foods recommended time and...",
             "aboutFull": "<p>Description: A quick calculator to take your foods recommended time and your microwave's power output to give you an adjusted time. I wanted to do a quick little Javascript project I could do quickly and get working. Now I need to come up with some creative ways to make it look good and be fun.</p>",
-            "link": "",
+            "link": "http://react-microwave-calc.s3-website-us-east-1.amazonaws.com/",
             "img": "img/general/microwave.jpg"
         }
     ]
