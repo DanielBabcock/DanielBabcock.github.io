@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #ff2200;
+  border: 1px solid #ff2200;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -74,15 +74,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #ff2200;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #b31800;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #ff2200;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #ff2200;
   }
 }
 
@@ -141,29 +141,29 @@
 .btn {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
   font-family: 'Varela Round';
   font-size: 80%;
   text-transform: uppercase;
-  letter-spacing: .15rem;
-  border: 0;
+  letter-spacing: .1rem;
+  border: 10;
+  width: 90%;
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #ff2200;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #cc1b00;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #cc1b00;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #b31800 !important;
 }
 
 .about-section {
@@ -191,7 +191,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #ff2200;
   }
 }
 
@@ -205,7 +205,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #ff2200;
     border-width: .25rem;
     width: 30%;
   }
@@ -275,7 +275,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #ff2200;
 }
 
 .contact-section .card h4 {
@@ -286,7 +286,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #ff2200;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -306,11 +306,11 @@
 }
 
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.1);
 }
 
 .contact-section .social a:active {
-  color: #fff;
+  color: red;
 }
 
 .col-sm-3.technologies {
@@ -321,10 +321,9 @@
 }
 
 .technos, .words {
-  margin-top: -55px;
   background: white;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .techs {
@@ -338,12 +337,12 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #ff2200;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #991400;
 }
 
 .bg-black {
@@ -351,11 +350,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #ff2200 !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #ff2200 !important;
 }
 
 footer {
