@@ -13,7 +13,7 @@
             "name": "Med Records Keeper",
             "aboutShort": "Ever go for a Doctor visit and fill out a huge form only to find...",
             "aboutFull": "<p>Description: Ever go for a Doctor visit and fill out a huge form only to find yourself a bit fuzzy on details like medications or family history? This app is designed to solve that issue and keep those records in detail, as well as serve the globetrotting types without a family Doctor. This app is built with a Ruby on Rails API using SQlite3 as the back-end and for the front-end it uses AngularJs, Saas, Bootstrap, and HTML/CSS. User login is handled with token-based authentication and task running is handled by Grunt.</p>",
-            "projectLink": "",
+            "projectLink": "https://github.com/DanielBabcock/MedRecordsBack",
             "img": "img/general/med-logo.png"
         },
         {
@@ -43,25 +43,25 @@
         {
             "id": 5,
             "name": "Murray Insurance",
-            "aboutShort": "Description: ...",
-            "aboutFull": "<p>Description: .</p>",
-            "projectLink": "",
+            "aboutShort": "Description: Insurance customer site...",
+            "aboutFull": "<p>Description: Insurance customer site.</p>",
+            "projectLink": "https://www.themurrayinsuranceagency.com/",
             "img": "img/general/murray.png"
         },
         {
             "id": 6,
             "name": "Porch Insurance",
-            "aboutShort": "Description: ...",
-            "aboutFull": "<p>Description: .</p>",
-            "projectLink": "",
+            "aboutShort": "Description: Insurance customer site...",
+            "aboutFull": "<p>Description: Insurance customer site.</p>",
+            "projectLink": "https://pswins.com/",
             "img": "img/general/porch.png"
         },
         {
             "id": 7,
             "name": "Langlois Insurance",
-            "aboutShort": "Description: ...",
-            "aboutFull": "<p>Description: .</p>",
-            "projectLink": "",
+            "aboutShort": "Description: Insurance customer site...",
+            "aboutFull": "<p>Tech Used: HTML/Bootstrap, CSS/SASS, and Wordpress <br>Description: Insurance customer site from my time with Titan Web.</p>",
+            "projectLink": "https://www.langloisinsurance.com/",
             "img": "img/general/langlois.png"
         },
         {
@@ -69,15 +69,15 @@
             "name": "Custom Coin Holder's store",
             "aboutShort": "Description: ...",
             "aboutFull": "<p>Description: .</p>",
-            "projectLink": "",
+            "projectLink": "https://customcoinholders.com/products/",
             "img": "img/general/customCoin.png"
         },
         {
             "id": 9,
-            "name": "My previous DanielBabcock.com",
+            "name": "My previous Website",
             "aboutShort": "Description: ...",
             "aboutFull": "<p>Description: .</p>",
-            "projectLink": "",
+            "projectLink": "http://danielsoldsite.s3-website-us-east-1.amazonaws.com/",
             "img": "img/general/danielBabcock.png"
         }
     ]
