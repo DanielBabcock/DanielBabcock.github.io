@@ -21,14 +21,19 @@
   }
 
     .col-md-3.projList{
-      border: 1px solid lightgray;
+      // .projects{
+      border: 1px solid rgb(104, 104, 104);
       border-radius:10px;
-      box-shadow: 2px 2px 2px lightgray;
+      box-shadow: 2px 2px 2px rgb(204, 189, 189);
       margin: 10px;
       margin-bottom: 25px;
       background: white;
   }
-
+.popupBorder{
+      border: 1px solid rgb(196, 196, 196);
+      border-radius:10px;
+      box-shadow: 2px 2px 2px rgb(201, 201, 201);
+}
   .card-img-top{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -42,11 +47,20 @@
 
 .modal-body{
     display: block;
+    background: white;
   }
 
+  .modal-header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+// .modal{
+//   background: white;
+// }
 .modal-footer{
     display: block;
     text-align: center;
+    background: white;
   }
 
   .modal-body img{

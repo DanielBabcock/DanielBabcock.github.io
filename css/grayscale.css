@@ -212,13 +212,20 @@
 }
 
 .projects-section .col-md-3.projList {
-  border: 1px solid lightgray;
+  border: 1px solid #686868;
   border-radius: 10px;
-  -webkit-box-shadow: 2px 2px 2px lightgray;
-  box-shadow: 2px 2px 2px lightgray;
+  -webkit-box-shadow: 2px 2px 2px #ccbdbd;
+  box-shadow: 2px 2px 2px #ccbdbd;
   margin: 10px;
   margin-bottom: 25px;
   background: white;
+}
+
+.projects-section .popupBorder {
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 2px #c9c9c9;
+  box-shadow: 2px 2px 2px #c9c9c9;
 }
 
 .projects-section .card-img-top {
@@ -234,11 +241,18 @@
 
 .projects-section .modal-body {
   display: block;
+  background: white;
+}
+
+.projects-section .modal-header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .projects-section .modal-footer {
   display: block;
   text-align: center;
+  background: white;
 }
 
 .projects-section .modal-body img {
@@ -274,7 +288,7 @@
 }
 
 .contact-section .card {
-  border: 0;
+  border: 2;
   border-bottom: 0.25rem solid #ff2200;
 }
 
@@ -322,13 +336,13 @@
 
 .technos, .words {
   background: white;
-  padding: 20px;
+  padding: 10px;
   border-radius: 20px;
 }
 
 .techs {
   width: 80px;
-  margin: 20px;
+  margin: 10px;
 }
 
 body {
