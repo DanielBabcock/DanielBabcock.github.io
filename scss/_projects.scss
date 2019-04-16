@@ -1,4 +1,8 @@
 .projects-section {
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-evenly;
+ 
   padding: 10rem 0;
   .featured-text {
     padding: 2rem;
@@ -22,6 +26,9 @@
 
     .col-md-3.projList{
       // .projects{
+      // display: flex;
+      // flex-wrap: wrap;
+      // justify-content: space-evenly;
       border: 1px solid rgb(104, 104, 104);
       border-radius:10px;
       box-shadow: 2px 2px 2px rgb(204, 189, 189);
@@ -46,6 +53,9 @@
   }
 
 .modal-body{
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-evenly;
     display: block;
     background: white;
   }
@@ -54,9 +64,9 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
-// .modal{
-//   background: white;
-// }
+.modal{
+  background: white;
+}
 .modal-footer{
     display: block;
     text-align: center;
