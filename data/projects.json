@@ -43,24 +43,24 @@
         {
             "id": 5,
             "name": "Murray Insurance",
-            "aboutShort": "Description: Insurance customer site...",
-            "aboutFull": "<p>Description: Insurance customer site.</p>",
+            "aboutShort": "Description: ...",
+            "aboutFull": "<p>Description: .</p>",
             "projectLink": "https://www.themurrayinsuranceagency.com/",
             "img": "img/general/murray.png"
         },
         {
             "id": 6,
             "name": "Porch Insurance",
-            "aboutShort": "Description: Insurance customer site...",
-            "aboutFull": "<p>Description: Insurance customer site.</p>",
+            "aboutShort": "Description: ...",
+            "aboutFull": "<p>Description: .</p>",
             "projectLink": "https://pswins.com/",
             "img": "img/general/porch.png"
         },
         {
             "id": 7,
             "name": "Langlois Insurance",
-            "aboutShort": "Description: Insurance customer site...",
-            "aboutFull": "<p>Tech Used: HTML/Bootstrap, CSS/SASS, and Wordpress <br>Description: Insurance customer site from my time with Titan Web.</p>",
+            "aboutShort": "Description: ...",
+            "aboutFull": "<p>Description: .</p>",
             "projectLink": "https://www.langloisinsurance.com/",
             "img": "img/general/langlois.png"
         },
@@ -68,13 +68,13 @@
             "id": 8,
             "name": "Custom Coin Holder's store",
             "aboutShort": "Description: ...",
-            "aboutFull": "<p>Description: .</p>",
+            "aboutFull": "<p>Description: Military gifts and memorabilia.</p>",
             "projectLink": "https://customcoinholders.com/products/",
             "img": "img/general/customCoin.png"
         },
         {
             "id": 9,
-            "name": "My previous Website",
+            "name": "My previous resume site",
             "aboutShort": "Description: ...",
             "aboutFull": "<p>Description: .</p>",
             "projectLink": "http://danielsoldsite.s3-website-us-east-1.amazonaws.com/",
