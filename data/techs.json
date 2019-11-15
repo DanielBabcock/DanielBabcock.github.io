@@ -5,6 +5,18 @@
 			"image": "img/techs/javascript.png"
 		},
 		{
+			"name": "React",
+			"image": "img/techs/react.gif"
+		},
+		{
+			"name": "Azure DevOps",
+			"image": "img/techs/azure.jpg"
+		},
+		{
+			"name": "Atomic Design",
+			"image": "img/techs/atomic.png"
+		},
+		{
 			"name": "Angular.js",
 			"image": "img/techs/angularjs.png"
 		},
@@ -44,33 +56,29 @@
 			"name": "Bootstrap",
 			"image": "img/techs/bootstrap.png"
 		},
-        {
+		{
 			"name": "Firebase",
 			"image": "img/techs/firebase.png"
-        },
-        {
-			"name": "NPM",
-			"image": "img/techs/npm.png"
-        },
-        {
-			"name": "Ruby",
-			"image": "img/techs/ruby.png"
-        },
-        {
-			"name": "Rails",
-			"image": "img/techs/rails.jpg"
-        },
-        {
-			"name": "SQLite3",
-			"image": "img/techs/sqlite.png"
-        },
-        {
-			"name": "Visual Studio Code",
-			"image": "img/techs/VSC.png"
 		},
 		{
-			"name": "React",
-			"image": "img/techs/react.png"
+			"name": "NPM",
+			"image": "img/techs/npm.png"
+		},
+		{
+			"name": "Ruby",
+			"image": "img/techs/ruby.png"
+		},
+		{
+			"name": "Rails",
+			"image": "img/techs/rails.jpg"
+		},
+		{
+			"name": "SQLite3",
+			"image": "img/techs/sqlite.png"
+		},
+		{
+			"name": "Visual Studio Code",
+			"image": "img/techs/VSC.png"
 		},
 		{
 			"name": "Markdown",
@@ -83,6 +91,18 @@
 		{
 			"name": "Photoshop",
 			"image": "img/techs/photoshop.png"
+		},
+		{
+			"name": "Sketch",
+			"image": "img/techs/sketch.png"
+		},
+		{
+			"name": "Invision",
+			"image": "img/techs/invision.png"
+		},
+		{
+			"name": "Image Optim",
+			"image": "img/techs/imageoptim.jpeg"
 		},
 		{
 			"name": "Wordpress",
@@ -102,5 +122,3 @@
 		}
 	]
 }
-
-	

@@ -3,15 +3,15 @@
 // console.log("main.js");
 
 $.ajax({
-    url: "data/projects.json"
-  }).done(projectsLists)
+  url: "data/projects.json"
+}).done(projectsLists)
   .fail(function (error) {
     console.log("error", error);
   });
-  function projectsLists(list) {
-    let data = list.project;
-    data.forEach(function (item) {
-      document.getElementById("projects").innerHTML += `<div class="col-md-3 projList">
+function projectsLists(list) {
+  let data = list.project;
+  data.forEach(function (item) {
+    document.getElementById("projects").innerHTML += `<div class="col-md-3 projList">
             <img class="card-img-top" src="${item.img}" alt="${item.name}" data-toggle="modal" data-target="#projectList${item.id}" style="cursor:pointer;">
             <div class="card-body">
               <h4 class="card-title title-font">${item.name}</h4>
@@ -46,19 +46,19 @@ $.ajax({
             </div>
           </div>
         </div>`;
-  
-    });
-  };
-  
-  //checks to see if url string is empty, if not, creates specified image
-  function createLink(urlString, img, mail) {
-    let projectLink = urlString !== '' ? `<a href="${urlString}" target= "_blank"><img src="img/icon/${img}.png"></a>` : '<!-- -->';
-    return projectLink
-  };
+
+  });
+};
+
+//checks to see if url string is empty, if not, creates specified image
+function createLink(urlString, img, mail) {
+  let projectLink = urlString !== '' ? `<a href="${urlString}" target= "_blank"><img src="img/icon/${img}.png"></a>` : '<!-- -->';
+  return projectLink
+};
 
 $.ajax({
-    url: "data/techs.json"
-  }).done(techs)
+  url: "data/techs.json"
+}).done(techs)
   .fail(function (error) {
     console.log("error", error);
   });
