@@ -5,10 +5,6 @@
 			"image": "img/techs/javascript.png"
 		},
 		{
-			"name": "React",
-			"image": "img/techs/react.gif"
-		},
-		{
 			"name": "Azure DevOps",
 			"image": "img/techs/azure.jpg"
 		},
@@ -17,24 +13,12 @@
 			"image": "img/techs/atomic.png"
 		},
 		{
-			"name": "Angular.js",
-			"image": "img/techs/angularjs.png"
-		},
-		{
-			"name": "jQuery",
-			"image": "img/techs/jquery.png"
-		},
-		{
 			"name": "Git",
 			"image": "img/techs/git.png"
 		},
 		{
 			"name": "Github",
 			"image": "img/techs/github.png"
-		},
-		{
-			"name": "Grunt",
-			"image": "img/techs/grunt.png"
 		},
 		{
 			"name": "Gulp",
@@ -57,24 +41,8 @@
 			"image": "img/techs/bootstrap.png"
 		},
 		{
-			"name": "Firebase",
-			"image": "img/techs/firebase.png"
-		},
-		{
 			"name": "NPM",
 			"image": "img/techs/npm.png"
-		},
-		{
-			"name": "Ruby",
-			"image": "img/techs/ruby.png"
-		},
-		{
-			"name": "Rails",
-			"image": "img/techs/rails.jpg"
-		},
-		{
-			"name": "SQLite3",
-			"image": "img/techs/sqlite.png"
 		},
 		{
 			"name": "Visual Studio Code",
@@ -107,14 +75,6 @@
 		{
 			"name": "Wordpress",
 			"image": "img/techs/wordpress.jpg"
-		},
-		{
-			"name": "Apache",
-			"image": "img/techs/apache.png"
-		},
-		{
-			"name": "Java",
-			"image": "img/techs/java.png"
 		},
 		{
 			"name": "Jira",
