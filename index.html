@@ -1,411 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Daniel Babcock</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          Daniel Babcock
-            <!-- <img id="navLogo" src="img/general/white-logo.png"> -->
-        </a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#eduAndExp">Experience & Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Daniel Babcock</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="/img/icon/db-favicon.png" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />        
+    </head>
+    <body class="d-flex flex-column h-100 bg-gradient-primary-to-secondary">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="sticky-top navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html">
+                        <span class="fw-bolder text-gradient">Daniel Babcock</span>
+                        <!-- <img src="/img/general/DB-Logo.png" alt="Daniel Babcock logo with three hexagons exploding"> -->
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    About
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="services.html">Services</a></li>
+                                    <li><a class="dropdown-item" href="projects.html">Projects</a></li>
+                                    <li><a class="dropdown-item" href="about.html">About Me</a></li>
+                                    <!-- <li><hr class="dropdown-divider"></li>                                     -->                                    
+                                </ul>
+                            </li>                            
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="flip-180 sticky-top" style="margin-right: -4px; top: 62px;">
+                <svg class="waves waves2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+            </svg>
+            </div>
+            <!-- Header-->
+            <header class="py-5">
+                <div class="container px-5 pb-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col text-center">
+                            <!-- Header text content-->
+                            <!-- <div class="text-center text-xxl-start"> -->
+                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
+                                    <div class="text-uppercase">Design &middot; Development &middot; Marketing</div>
+                                </div>
+                                <div class="fs-3 fw-light text-white">I can help your business to</div>
+                                <h1 class="display-3 fw-bolder mb-5">
+                                    <span class="text-white d-inline">Get online and grow fast</span>
+                                </h1>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center mb-3">                                    
+                                    <a class="btn btn-light btn-lg px-5 py-3 me-sm-3 fs-2 fw-bolder" href="services.html">Services</a>
+                                    <a class="btn btn-info btn-lg px-5 py-3 fs-2 fw-bolder" href="projects.html">Projects</a>
+                                </div>
+                            <!-- </div> -->
+                        </div>
+                        <!-- <div class="col-xxl-7">                            
+                            <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+                                <div class="profile bg-gradient-primary-to-secondary">
+                                    
+                                    <img class="profile-img" src="assets/profile.png" alt="..." />
+                                    <div class="dots-1">                                        
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
+                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
+                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
+                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
+                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
+                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
+                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
+                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
+                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
+                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
+                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
+                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
+                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
+                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
+                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
+                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
+                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
+                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
+                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
+                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
+                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
+                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="dots-2">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
+                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
+                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
+                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
+                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
+                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
+                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
+                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
+                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
+                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
+                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
+                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
+                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
+                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
+                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
+                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
+                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
+                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
+                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
+                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
+                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
+                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="dots-3">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
+                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
+                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
+                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
+                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
+                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
+                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
+                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
+                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
+                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
+                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
+                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
+                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
+                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
+                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
+                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
+                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
+                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
+                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
+                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
+                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
+                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="dots-4">                                        
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
+                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
+                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
+                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
+                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
+                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
+                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
+                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
+                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
+                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
+                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
+                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
+                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
+                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
+                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
+                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
+                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
+                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
+                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
+                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
+                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
+                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </header>
+            <!-- About Section-->
+            <section class="home-about-section">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col">
+                            <div class="text-center">
+                                <h2 class="display-5 fw-bolder">
+                                    <span class="text-white d-inline">About Me</span>
+                                </h2>
+                                <p class="lead fw-light text-white mb-4">My name is Daniel Babcock I help small businesses grow.</p>
+                                <p class="text-white fs-6">
+                                    My Story (the extra-short version)
+                                    <br>
+                                    Web Developer, Marine Corps Veteran, and Third Culture Kid interested in creating and building things whether it be coding, blacksmithing, or photography. With a focus on good Customer/User Experience and meeting business needs, Web Development is where my need for learning, designing, problem solving, and creation have merged to serve you.
+                                    <!-- <br>
+                                    Now for the more absurd and less linkedin headline version:
+                                    <br> -->
+                                    <!-- I don't know where I'm from, so I usually give short false-ish answers or long winded convoluted answers to that question. I spent my childhood in East Africa where 'I Did Not ride tigers to school', (the tigers thing, that's one of the amazing actual questions I got asked in school in TN), then I lived in very rural Tennessee for middle-high school where I may or may not have often found myself running from the sounds of meth fueled banjos. Later I joined the Marines for various good reasons but insisted on telling my friends who were awestruck at my new level of lunacy it was because "They gave me this awesome t-shirt!", pretend I'm showing you some cheesy t-shirt a recruiter would hand out to a teenage boy. I apparently like way too long sentences when writing and too far over-simplifying things when talking. I'm Daniel, please feel free to make gratuitous deposits of knowledge bombs and if I'm ever found in a "tis but a fleshwound" scenario after a stapler accident tell the EMTs I'm O+ and allergic to Jelly Fish. Thanks.</p>                                 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="fixed-bottom waves-bottom" style="">
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+            </svg>
         </div>
-      </div>
-    </nav>
-
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container d-flex h-100 align-items-center">
-        <div class="mx-auto text-center">
-          <!-- <h1 class="mx-auto my-0 text-uppercase">Daniel Babcock</h1> -->
-          <h2 class="text-white mx-auto mt-2 mb-5">Web Developer // Marine Corps Veteran \\ Third Culture Kid.</h2>
-          <a href="#about" class="btn btn-primary js-scroll-trigger">My Story</a>
-        </div>
-      </div>
-    </header>
-    
-    <!-- About Section -->
-    <section id="about" class="about-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-white mb-4">My Story || (the extra-short version)</h2>
-            <p class="text-white">UX Engineer =>  Marine Corps Veteran and former Security Professional with an interest in creating 
-              and building things whether it be coding, blacksmithing, or photography. User Experience and Web Development 
-              is where my need for learning, designing, problem solving, and creation have merged with professional interest.
-              <br>
-              <br>
-              Now for the more absurd and less linkedin headline version:
-              <br>
-              <br>
-              I don't know where I'm from, so I usually give short false-ish answers or long winded convoluted answers 
-              to that question. I spent my childhood in East Africa where 'I Did Not ride tigers to school', 
-              (the tigers thing, that's one of the amazing actual questions I got asked in school in TN), then I lived 
-              in very rural Tennessee for middle-high school where I may or may not have often found myself 
-              running from the sounds of meth fueled banjos. Later I joined the Marines for various good reasons but insisted 
-              on telling my friends who were awestruck at my new level of lunacy it was because "They gave me this awesome 
-              t-shirt!", pretend I'm showing you some cheesy t-shirt a recruiter would hand out to a teenage boy. I 
-              apparently like way too long sentences when writing and too far over-simplifying things when talking. 
-              I'm Daniel, please feel free to make gratuitous deposits of knowledge bombs and if I'm ever found in 
-              a "tis but a fleshwound" scenario after a stapler accident tell the EMTs I'm O+ and allergic to Jelly Fish. 
-              Thanks. 
-            </p>
-          </div>
-        </div>
-        <!-- <img src="img/bg/stars.jpg" class="img-fluid" alt=""> -->
-      </div>
-    </section>
-
-    <!-- SKILLS begin-->
-    <div id="skills" class="container technos">
-        <div id="techs" class="row">
-        </div>
-    </div>
-    <!-- SKILLS end-->
-
-    <!-- Projects Section -->
-    <section class="projects-section bg-light">
-      <div class="container">
-        <!-- Project Cards -->
-            <div id="projects" class="row" style="justify-content: center;">
-            </div>
-        <!-- Project Cards -->
-      </div>
-    </section>
-    <!-- Projects end -->
-
-    <!-- Education and Experience begin-->
-      <!-- Experience Section -->
-    <section id="eduAndExp" class="projects-section bg-light">
-      <div class="container">
-        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-          <div class="my-auto">
-            <h2 class="mb-5">Experience</h2>
-
-            <!-- HCA -->
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-              <div class="resume-content mr-auto">
-                <h3 class="mb-0">UX Engineer Intern</h3>
-                <div id="hoverText">
-                  <div class="subheading mb-3"><a href="https://hcahealthcare.com/" target="_blank">HCA</a>
-                  </div>
+        </main>       
+        
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto fixed-bottom">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto">
+                        <div class="small m-0">Copyright &copy; danielbabcock.com 2023</div>
+                    </div>
+                    <div class="col-auto justify-content-center fs-2 gap-4">
+                        <a class="text-gradient" href="https://codepen.io/DanielBabcock/">                            
+                            <i class="fab fa-codepen"></i>
+                        </a>
+                        <a class="text-gradient" href="https://www.linkedin.com/in/danielbbabcock/"><i class="bi bi-linkedin"></i></a>
+                        <a class="text-gradient" href="https://github.com/DanielBabcock/"><i class="bi bi-github"></i></a>
+                    </div>
+                    <!-- here -->
+                    <!-- <div class="col-auto">
+                        <a class="small" href="privacy.html">Privacy</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="terms.html">Terms</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="contact.html">Contact</a>
+                    </div> -->
                 </div>
-                <p> ➜ RESPONSIBILITIES: Primarily improving the Neutron Code Kit followed by consulting with other teams on Neutron
-                integration and design thinking. <br>
-                ➜ TECH: Azure Devops, Javascript, React, HTML, s/CSS, Sketch, Invision, and Image Optimization Tools.<br>
-                ➜ PRODUCTS: The purpose of the Neutron Code Kit is to save Developers time, improve Accessibility,
-                and to create better more consistent user experiences.<br>
-                ➜ FAVOURITE: Seeing other developers get excited about designing re-usable organized code and getting to work with awesome UX Professionals.
-                </p>
-              </div>
-              <div class="resume-content mr-auto">
-                <!-- <div class="resume-date text-md-right"> -->
-                <span class="text-primary">Mar 2018 - Present</span>
-              </div>
             </div>
-
-            <!-- Savvy Coders -->
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-              <div class="resume-content mr-auto">
-                <h3 class="mb-0">Review Instructor</h3>
-                <div id="hoverText">
-                  <div class="subheading mb-3"><a href="https://savvycoders.com/" target="_blank">Savvy Coders</a>
-                  </div>
-                </div>
-                <p> ➜ RESPONSIBILITIES: Review each weeks primary course material with students.
-                Lead secondary subjects such as UX, Web Design, Color Theory, Career Guidance, and Subjects of Interest.<br>                  
-                  ➜ PRODUCTS: Savvy Coders provides a short part-time Web Development bootcamp<br>
-                  ➜ FAVOURITE: Students having little bright "ahaa!" moments.
-                </p>
-              </div>
-              <div class="resume-content mr-auto">
-                <!-- <div class="resume-date text-md-right"> -->
-                <span class="text-primary">2019</span>
-              </div>
-            </div>
-
-            <!-- Change Healthcare -->
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-              <div class="resume-content mr-auto">
-                <h3 class="mb-0">Analytic Applications Development Intern</h3>
-                  <div id="hoverText">
-                    <div class="subheading mb-3"><a href="https://www.changehealthcare.com/" target= "_blank">Change Healthcare</a></div>
-                  </div>
-                  <p> ➜ RESPONSIBILITIES: General maintenance of broken components, UI /UX improvements, and new feature requests.<br>
-                      ➜ TECH: Java, Oracle/SQL, ZK, React, IntelliJ, Eclipse, Microsoft Office, Apache, and Maven.<br>
-                      ➜ PRODUCTS: Full-Stack Development for a Insurance Claims workflow web app.<br>
-                      ➜ FAVOURITE PROJECT: Converting the Login Page to React from Zk.
-                    </p>
-                </div>
-                <div class="resume-content mr-auto">
-                <!-- <div class="resume-date text-md-right"> -->
-                <span class="text-primary">2018</span>
-              </div>
-            </div>
-
-            <!-- TITAN -->
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-              <div class="resume-content mr-auto">
-                <h3 class="mb-0">Web Developer</h3>
-                  <div id="hoverText">
-                    <div class="subheading mb-3"><a href="https://titanwebmarketingsolutions.com/" target= "_blank">Titan Web Marketing Solutions</a></div>
-                  </div>
-                      ➜ RESPONSIBILITIES: Build and or customize web pages per requirments.<br>
-                      ➜ TECH: Javascript, HTML, Bootstrap, CSS, Sass, Wordpress, Photoshop, Shopify, Excell.<br>
-                      ➜ PRODUCTS: Insurance and E-Commerce Customer Websites.<br>
-                      <!-- ➜ <a href="https://www.themurrayinsuranceagency.com/" target= "_blank">Murray Insurance</a><br> 
-                      ➜ <a href="https://pswins.com/" target= "_blank">Porch Insurance</a><br> 
-                      ➜ <a href="https://www.langloisinsurance.com/" target= "_blank">Langlois Insurance</a><br> 
-                      ➜ <a href="https://customcoinholders.com/products/" target= "_blank">Custom Coin Holder's store</a><br>   -->
-
-                    <!-- </p> -->
-                </div>
-                <div class="resume-content mr-auto">
-                <!-- <div class="resume-date text-md-right"> -->
-                <span class="text-primary">2018</span>
-              </div>
-            </div>
-
-            <!-- NSS -->
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-              <div class="resume-content mr-auto">
-                <h3 class="mb-0">Apprentice Software Developer</h3>
-                  <div id="hoverText">
-                    <div class="subheading mb-3"><a href="http://nashvillesoftwareschool.com/" target= "_blank">Nashville Software School</a></div>
-                  </div>
-                  <p> Description:
-                      Intensive full-time six-month, software bootcamp emphasizing modern full-stack development and technologies such as Javascript, AngularJS, and Ruby on Rails. Developed and deployed individual and group apps. The final months focus on working in a simulated company environment with SCRUM methodology.
-                      <br>
-                      TECH and ACTIVITIES: <br>
-                      ➜ Created single-page web applications utilizing HTML, CSS, Bootstrap, JavaScript, and AngularJS.<br>
-                      ➜ Utilized Grunt and Gulp to automate bundling of modules, JavaScript linting, and compiling Sass.<br>
-                      ➜ Project management/tracking GitHub Projects/Issues and Trello.<br>
-                      ➜ Solution Design: white-boarding and wireframes.<br>
-                      ➜ Designed, created, and interacted with relational databases through DB Browser.<br>
-                      ➜ Backend server-side database API creation with, Ruby on Rails and SQLite.<br>
-                      ➜ Deployed applications and web pages through Firebase and Github.<br>
-                      PRODUCTS: <br>
-                      ➜ Two Capstone CRUD Web-Apps and a Personal Website.<br>
-                      FAVOURITE PROJECT:<br>
-                      ➜ Photo Tutor.<br>
-                      <!-- ➜ TDD in Ruby.<br> -->
-                    </p>
-                </div>
-                <div class="resume-content mr-auto">
-                <!-- <div class="resume-date text-md-right"> -->
-                <span class="text-primary">2017</span>
-              </div>
-            </div>
-
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-              <div class="resume-content mr-auto">
-                <h3 class="mb-0">Former Security Professional</h3>
-                <div class="subheading mb-3"></div>
-                <p>Description:<br>
-                  ➜ Over 10 years working in Security both in the Military and as a Civilian.  
-                  AREAS of WORK:<br>
-                  ➜ US Embassy/Residential/Business Security, Emergency Management, Incident Response, Compound Defense, VIP Protection,
-                  Industrial/Operational Safety, and Firearms Training/Safety. <br>
-                  EXAMPLES:<br>
-                  ➜ Hurricane relief work (Marines, Katrina 2005).<br> 
-                  ➜ Airfield Security (2006).<br>
-                  ➜ Emergency Reclamation Team (Team Leader, Aircraft Incidents 2007-2008). <br>
-                  ➜ US Embassy Security, Emergency Management/Response, Compund Defense (Assistant Commander, Central Europe, West Africa, Middle East, 2008-2011).<br> 
-                  ➜ VIP Security (South Africa World Cup, Persian Gulf).<br> 
-                  ➜ Firearms Trainer and RSO (2012-Present).<br>
-                  ➜ Residential and Business Security (2015-2016).<br>
-                  ➜ Industrial Safety and Fire Systems (2016-2017)
-                  </p>
-              </div>
-              <div class="resume-content mr-auto">
-                <span class="text-primary"> 2005 - 2017</span>
-              </div>
-            </div>
-
-
-            <!-- <div class="resume-item d-flex flex-column flex-md-row">
-              <div class="resume-content mr-auto">
-                <h3 class="mb-0">United States Marine Corps</h3>
-                <div class="subheading mb-3">Sergeant</div>
-                  <p>8156 Marine Security Guard (Oct 2008 - Dec 2011)<br>
-                      0933 Combat Marksmanship Coach (Sept 2007 - Oct 2008)<br>
-                      6156 MV-22 Osprey Airframes and Hydraulics Mechanic (Apr 2005 - Oct 2008)<br>
-                      Other experience:<br>
-                      ➜ Work Center Supervisor.<br>
-                      ➜ ERT Leader.<br>
-                      ➜ Hazmat.<br>
-                      ➜ Base Security.<br>
-                      ➜ US Embassy Security.<br>
-                      ➜ Fund Management.<br>
-                      ➜ Event Coordination/Planning.<br>
-                      ➜ VIP Security.<br>
-                  </p>
-              </div>
-              <div class="resume-content mr-auto">
-                <span class="text-primary">2005 - 2011</span>
-              </div>
-            </div> -->
-
-          </div>
-
-        </section>
-
-        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-          <div class="my-auto">
-            <h2 class="mb-5">Education</h2>
-
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-              <div class="resume-content mr-auto">
-                <h3 class="mb-0"><a href="https://go.artinstitutes.edu/" target= "_blank">The Art Institute of Tennessee</a></h3>
-                <div class="subheading mb-3">Bachelor of Science</div>
-                <div>Photographic Imaging</div>
-              </div>
-              <div class="resume-content mr-auto">
-                <span class="text-primary">2012 - 2014</span>
-              </div>
-            </div>
-
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-              <div class="resume-content mr-auto">
-                <h3 class="mb-0"><a href="http://nashvillesoftwareschool.com/" target= "_blank">Nashville Software School</a></h3>
-                <h4 class="mb-0"><a href="https://cohort21-nashvillesoftwareschool.github.io/cohort-21-website/" target= "_blank">Cohort 21</a></h4>
-                <div class="subheading mb-3">Certificate</div>
-                <div>Full-stack Development</div>
-              </div>
-              <div class="resume-content mr-auto">
-                <span class="text-primary">2017</span>
-              </div>
-            </div>
-
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-              <div class="resume-content mr-auto">
-                <h3 class="mb-0"><a href="http://nashvillesoftwareschool.com/programs/ui-ux-professional-development/" target="_blank">Nashville Software School</a></h3>                
-                <div class="subheading mb-3">Certificate</div>
-                <div>UI & UX Digital Product Design Professional Development
-                </div>
-              </div>
-              <div class="resume-content mr-auto">
-                <span class="text-primary">2019</span>
-              </div>
-            </div>
-
-          </div>
-        </section> 
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section signup-section">
-      <div class="container">
-        <div class="row" style="justify-content: center;">
-
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-envelope text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Email</h4>
-                <hr class="my-4">
-                <div class="small text-black-50">
-                  <a href="mailto:babcock.daniel.b@gmail.com">babcock.daniel.b@gmail.com</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Phone</h4>
-                <hr class="my-4">
-                <div class="small text-black-50">+1 (615) 738-8128</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="social d-flex justify-content-center">
-          <a href="https://twitter.com/danielBabcock0" target="_blank" class="mx-2">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/danielbbabcock/" target="_blank" class="mx-2">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://github.com/DanielBabcock" target="_blank" class="mx-2">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-         
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-black small text-center text-white-50">
-      <div class="container">
-        <!-- <div class="row"> -->
-          Copyright &copy; DanielBabcock.com 2018
-        <!-- </div> -->
-      </div>
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
-
-    <!-- Container => json  scripts for this template -->
-    <script src="js/main.js"></script>
-
-  </body>
-
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/21b2968c8c.js" crossorigin="anonymous"></script>
+        <!-- LinkedIn -->
+        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    </body>
 </html>
