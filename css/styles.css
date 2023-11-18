@@ -11859,3 +11859,18 @@ html {
     padding-bottom: 13rem !important;
   }
 }
+/* .profile-badge--width-330 {
+  max-width: 50% !important;
+} */
+
+.projects .neutron-logo {
+  background-color: #c45f33;
+  padding: 20px 10px;
+  border-radius: 10px;
+  /* width: 275px; */
+  max-width: 95%;
+}
+
+.projects .card p {
+  /* max-width: 368px; */
+}
