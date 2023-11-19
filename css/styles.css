@@ -5867,14 +5867,21 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
+  width: 12% !important;
   padding: 0;
   color: #fff;
   text-align: center;
-  background: none;
-  border: 0;
-  opacity: 0.5;
-  transition: opacity 0.15s ease;
+  background: 0 0;
+  border: 10px;
+  opacity: .75  !important;
+  transition: opacity .15s ease;
+  background: #1e30f3 !important;
+  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%) !important;
+  background: linear-gradient(60deg, rgba(84,58,183,1) 25%, rgba(0,172,193,1) 100%) !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  height: 75px !important;
+  margin: auto !important;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
@@ -5973,7 +5980,7 @@ textarea.form-control-lg {
   left: 15%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  color: #fff;
+  color: #343a40;
   text-align: center;
 }
 
@@ -11873,4 +11880,8 @@ html {
 
 .projects .card p {
   /* max-width: 368px; */
+}
+.projects .card img {
+  display: block;
+  margin: 0 auto;
 }
