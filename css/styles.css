@@ -4605,7 +4605,8 @@ textarea.form-control-lg {
   line-height: 1;
   color: var(--bs-badge-color);
   text-align: center;
-  white-space: nowrap;
+  /* white-space: nowrap; */
+  white-space: normal;
   vertical-align: baseline;
   border-radius: var(--bs-badge-border-radius);
 }
@@ -11884,4 +11885,5 @@ html {
 .projects .card img {
   display: block;
   margin: 0 auto;
+  max-width: 95%;
 }
