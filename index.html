@@ -17,10 +17,10 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />        
     </head>
-    <body class="d-flex flex-column h-100 bg-gradient-primary-to-secondary">
-        <main class="flex-shrink-0">
+    <body class="home-page bg-gradient-primary-to-secondary">
+        <main class="">
             <!-- Navigation-->
-            <nav class="sticky-top navbar navbar-expand-lg navbar-light bg-white py-3">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 sticky-top">
                 <div class="container px-5">
                     <a class="navbar-brand" href="index.html">
                         <span class="fw-bolder text-gradient">Daniel Babcock</span>
@@ -41,32 +41,34 @@
                                     <!-- <li><hr class="dropdown-divider"></li>                                     -->                                    
                                 </ul>
                             </li>                            
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item nav-contact-btn">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+            
             <div class="flip-180 sticky-top" style="margin-right: -4px; top: 62px;">
                 <svg class="waves waves2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-            <defs>
-                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-            </defs>
-            <g class="parallax">
-                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-            </g>
-            </svg>
+                    <defs>
+                        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                    </g>
+                </svg>
             </div>
-            <!-- Header-->
-            <header class="py-5">
-                <div class="container px-5 pb-5">
-                    <div class="row gx-5 align-items-center">
-                        <div class="col text-center">
-                            <!-- Header text content-->
-                            <!-- <div class="text-center text-xxl-start"> -->
+                                                        
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <header class="py-5">                                
+                            <div class="col text-center">                                            
                                 <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
                                     <div class="text-uppercase">
                                         <!-- Design &middot;  -->
@@ -75,73 +77,86 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
                                         Site Management
                                     </div>
                                 </div>
-                                <div class="fs-3 fw-light text-white">I can help your business to</div>
+                                <p class="fs-3 fw-light text-white">
+                                    I can help your business to
+                                </p>
                                 <h1 class="display-3 fw-bolder mb-5">
                                     <span class="text-white d-inline">Get online and grow fast</span>
                                 </h1>
+
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center mb-3">                                    
                                     <a class="btn btn-light btn-lg px-5 py-3 me-sm-3 fs-2 fw-bolder" href="services.html">Services</a>
                                     <a class="btn btn-info btn-lg px-5 py-3 fs-2 fw-bolder" href="projects.html">Projects</a>
-                                </div>
-                            <!-- </div> -->
+                                </div>                                            
+                            </div>                                    
+                        </header>
+
+                    </div>
+                    <div class="col-12">
+                        <div class="text-center">
+                            <h2 class="display-5 fw-bolder">
+                                <span class="text-white d-inline">Who and What</span>
+                            </h2>
+                            <p class="lead fw-light text-white mb-4">Hi There! My name is Daniel Babcock, I help small businesses grow. I do this by helping your customers find you through improving your web presence. </p>                                                                
+                        </div>
+                    </div>
+                    <div class="col-12" style="min-height: 350px;">
+                        <div class="text-center">
+                            <h3 class="display-5 fw-bolder">
+                                <span class="text-white d-inline">                                        
+                                    Let's build something together
+                                </span>
+                            </h3>
+                            <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
                         </div>
                     </div>
                 </div>
-            </header>
-            <!-- About Section-->
-            <section class="home-about-section">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col">
-                            <div class="text-center">
-                                <h2 class="display-5 fw-bolder">
-                                    <span class="text-white d-inline">Who and What</span>
-                                </h2>
-                                <p class="lead fw-light text-white mb-4">Hi There! My name is Daniel Babcock, I help small businesses grow. I do this by helping your customers find you through improving your web presence. </p>
-                                                                
-                            </div>
-                        </div>
-                    </div>
+            </div>
+            
+            <div class="container-fluid">
+
+                <div class="fixed-bottom waves-bottom">
+                    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                    </g>
+                    </svg>
                 </div>
-            </section>
-            <div class="fixed-bottom waves-bottom" style="">
-            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-            <defs>
-                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-            </defs>
-            <g class="parallax">
-                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-            </g>
-            </svg>
-        </div>
+            </div>
         </main>       
         
         <!-- Footer-->
         <footer class="bg-white py-4 mt-auto fixed-bottom">
+            <!-- fixed-bottom -->
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div class="col-auto">
                         <div class="small m-0">Copyright &copy; danielbabcock.com 2023</div>
                     </div>
                     <div class="col-auto justify-content-center fs-2 gap-4">
-                        <a class="text-gradient" href="https://codepen.io/DanielBabcock/">                            
+                        <a class="text-gradient" href="https://codepen.io/DanielBabcock/" target="_blank">                            
                             <i class="fab fa-codepen"></i>
                         </a>
-                        <a class="text-gradient" href="https://www.linkedin.com/in/danielbbabcock/"><i class="bi bi-linkedin"></i></a>
-                        <a class="text-gradient" href="https://github.com/DanielBabcock/"><i class="bi bi-github"></i></a>
+                        <a class="text-gradient" href="https://www.linkedin.com/in/danielbbabcock/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a class="text-gradient" href="https://github.com/DanielBabcock/" target="_blank"><i class="bi bi-github"></i></a>
                     </div>
                     <!-- here -->
-                    <!-- <div class="col-auto">
-                        <a class="small" href="privacy.html">Privacy</a>
+                    <div class="col-auto">
+                        <a class="small" href="privacy-policy.html" target="_blank">Privacy</a>
                         <span class="mx-1">&middot;</span>
-                        <a class="small" href="terms.html">Terms</a>
+                        <a class="small" href="terms.html" target="_blank">Terms</a>
                         <span class="mx-1">&middot;</span>
-                        <a class="small" href="contact.html">Contact</a>
-                    </div> -->
+                        <!-- <!-- <a class="small" href="contact.html">Contact</a> -->
+                        <a class="btn btn-outline-dark btn-xs px-2 py-2 fs-6 fw-bold" href="contact.html">Contact me</a>
+                        
+                    </div>
                 </div>
             </div>
         </footer>
@@ -150,8 +165,6 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <!-- FontAwesome -->
-        <script src="https://kit.fontawesome.com/21b2968c8c.js" crossorigin="anonymous"></script>
-        <!-- LinkedIn -->
-        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+        <script src="https://kit.fontawesome.com/21b2968c8c.js" crossorigin="anonymous"></script>        
     </body>
 </html>

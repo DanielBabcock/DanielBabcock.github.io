@@ -2944,7 +2944,10 @@ textarea.form-control-lg {
   --bs-btn-disabled-bg: #dc3545;
   --bs-btn-disabled-border-color: #dc3545;
 }
-
+.nav-link-btn-light {
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
 .btn-light {
   --bs-btn-color: #000;
   --bs-btn-bg: #f8f9fa;
@@ -2961,7 +2964,10 @@ textarea.form-control-lg {
   --bs-btn-disabled-bg: #f8f9fa;
   --bs-btn-disabled-border-color: #f8f9fa;
 }
-
+.nav-link-btn-dark {
+  background-color: #f8f9fa;
+  border-color: #212529;
+}
 .btn-dark {
   --bs-btn-color: #fff;
   --bs-btn-bg: #212529;
@@ -4199,7 +4205,10 @@ textarea.form-control-lg {
 .card > .list-group + .card-footer {
   border-top: 0;
 }
-
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
 .card-body {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
@@ -7299,7 +7308,9 @@ textarea.form-control-lg {
 .h-25 {
   height: 25% !important;
 }
-
+.min-vh-25 {
+  min-height: 25vh !important;
+}
 .h-50 {
   height: 50% !important;
 }
@@ -11565,22 +11576,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body,
+/* body,
 html {
   height: 100%;
 }
 @media (max-width: 1920px) {
-  body,
-  html {
+  .home-page,
+  html .home-page {
     height: 120%;
   }
 }
 @media (max-width: 400px) {
-  body,
-  html {
+  .home-page,
+  html .home-page {
     height: 181%;
   }
-}
+} */
 
 .bg-gradient-primary-to-secondary {
   background: #1e30f3;
@@ -11859,14 +11870,18 @@ html {
 .flip-180 {
   transform: rotate(-180deg) translateX(0.25em);
   z-index: auto;
-
 }
 
-@media (max-width: 1920px) {
-  .home-about-section .text-center {
-    padding-bottom: 13rem !important;
+/* @media (max-width: 1450px) {
+  .contact-section {
+    padding-bottom: 2rem !important;
   }
 }
+@media (min-width: 1450px) {
+  .contact-section {
+    padding-bottom: 2rem !important;
+  }
+} */
 /* .profile-badge--width-330 {
   max-width: 50% !important;
 } */
@@ -11875,15 +11890,34 @@ html {
   background-color: #c45f33;
   padding: 20px 10px;
   border-radius: 10px;
-  /* width: 275px; */
   max-width: 95%;
 }
 
-.projects .card p {
-  /* max-width: 368px; */
-}
 .projects .card img {
   display: block;
   margin: 0 auto;
   max-width: 95%;
+}
+main {
+  min-height: 98vh;
+}
+
+.nav-contact-btn {
+  border: solid #212529 !important;
+    border-radius: 6px;
+}
+/* .nav-contact-btn:hover,
+.nav-contact-btn:active {
+  background: solid #212529 !important; 
+  background-color: solid #212529 !important; 
+  color: white !important;
+} */
+.nav-contact-btn a:hover,
+.nav-contact-btn a:active {
+  /* background: solid #212529 !important; 
+  background-color: solid #212529 !important;  */
+  color: #212529 !important;
+}
+.contact-form-section iframe html body {
+  background-color: none !important;
 }
