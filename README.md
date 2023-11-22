@@ -1,6 +1,7 @@
 Launch local server: python3 -m http.server
 
-- !Contact form!
+TODO:
+
 - profile picture to contact page
 - update services, hero projects and carousel project to feed from json for easier updates and less cluttered html
 - projects button for more info modal, and button for live preview with resizer modal.
@@ -13,6 +14,7 @@ Launch local server: python3 -m http.server
 Done:
 
 - !Services page!
+- !Contact form!
 - improve homepage waves at all screen sizes
 
 Notes:
