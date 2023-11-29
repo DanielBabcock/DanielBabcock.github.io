@@ -11820,11 +11820,23 @@ html {
     transform: translate3d(85px,0,0);
   }
 }
-/*Shrinking for mobile*/
+/*mobile*/
 @media (max-width: 768px) {
   .waves {
     height:40px;
     min-height:40px;
+  }
+  .waves-bottom .waves {
+    height: 50px;
+    margin-bottom: -13px;
+  }
+}
+/* above 1920 */
+@media (min-width: 1921px) {  
+  .waves-bottom .waves {
+    margin-bottom: 66px;
+    min-height: 150px;
+    max-height: 217px;
   }
 }
 
@@ -11864,6 +11876,17 @@ html {
 @media (max-width: 997px) {
   .waves-bottom {
     margin-bottom: 99px;
+  }
+}
+
+@media (max-width: 770px) {
+  .waves-bottom {
+    margin-bottom: 141px;
+  }
+}
+@media (max-width: 354px) {
+  .waves-bottom {
+    margin-bottom: 170px;
   }
 }
 
