@@ -2,20 +2,23 @@ Launch local server: python3 -m http.server
 
 TODO:
 
+- remove html from URLs
+- Templating Engine for blogging.
+- Web Components for ny reusable items starting w/ head footer and nav then other components
 - profile picture to contact page
-- update services, hero projects and carousel project to feed from json for easier updates and less cluttered html
+- update services, hero projects and carousel project to feed from json with web components for easier updates and less cluttered html
 - projects button for more info modal, and button for live preview with resizer modal.
-- Privacy and Terms pages
-- fill in any empty alt="..." tags
-- move any temporary inline styles to .css
 - add informational links to services cards
 - create dark mode: https://getbootstrap.com/docs/5.3/customize/color-modes/
 
 Done:
 
+- move any temporary inline styles to .css
+- fill in any empty alt="..." tags
 - !Services page!
 - !Contact form!
 - improve homepage waves at all screen sizes
+- Privacy and Terms pages
 
 Notes:
 

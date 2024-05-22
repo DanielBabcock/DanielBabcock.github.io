@@ -3804,7 +3804,11 @@ textarea.form-control-lg {
 .navbar-nav .dropdown-menu {
   position: static;
 }
-
+@media (max-width: 991px) {
+  .navbar-nav .dropdown-menu {
+    margin-bottom: 10px;
+  }
+}
 .navbar-text {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -6814,6 +6818,15 @@ textarea.form-control-lg {
   bottom: 0;
   left: 0;
   z-index: 1030;
+}
+@media (min-width: 576px) {
+  .fixed-bottom_mobile-none {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+  }
 }
 
 .sticky-top {
@@ -11820,23 +11833,14 @@ html {
     transform: translate3d(85px,0,0);
   }
 }
-/*mobile*/
+/*Shrinking for mobile*/
 @media (max-width: 768px) {
   .waves {
     height:40px;
     min-height:40px;
   }
   .waves-bottom .waves {
-    height: 50px;
-    margin-bottom: -13px;
-  }
-}
-/* above 1920 */
-@media (min-width: 1921px) {  
-  .waves-bottom .waves {
-    margin-bottom: 66px;
-    min-height: 150px;
-    max-height: 217px;
+    height: 81px;
   }
 }
 
@@ -11877,18 +11881,32 @@ html {
   .waves-bottom {
     margin-bottom: 99px;
   }
+  /* .waves-bottom {
+    margin-bottom: -17px;
+    width: 100%;
+  } */
+  .home-page .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
+@media (max-width: 576px) {
+  .waves-bottom {
+    margin-bottom: -17px;
+    width: 100%;
+  }
+}
+/* @media (min-width: 997px) {
+  .waves-bottom {
+    margin-bottom: -20px;
+    width: 100%;
+  }
+  .home-page .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+} */
 
-@media (max-width: 770px) {
-  .waves-bottom {
-    margin-bottom: 141px;
-  }
-}
-@media (max-width: 354px) {
-  .waves-bottom {
-    margin-bottom: 170px;
-  }
-}
 
 .flip-180 {
   transform: rotate(-180deg) translateX(0.25em);
@@ -11929,6 +11947,13 @@ main {
   border: solid #212529 !important;
     border-radius: 6px;
 }
+@media (max-width: 991px) {
+  .nav-contact-btn {
+    max-width: 84px;
+    padding: 2px 10px;
+  }
+}
+
 /* .nav-contact-btn:hover,
 .nav-contact-btn:active {
   background: solid #212529 !important; 
