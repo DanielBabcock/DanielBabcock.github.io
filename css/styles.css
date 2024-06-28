@@ -11969,21 +11969,4 @@ main {
 .contact-form-section iframe html body {
   background-color: none !important;
 }
-.card .card-img-top {
-  display: block !important;
-  height: 100% !important;
-  margin: 0 !important;
-  object-fit: cover;
-  width: 100% !important;
-}
-.card .card-img-top:hover {
-  transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
-    overflow: hidden;
-    transition-duration: var(--stk-transition-duration, .32s);
 
-}
-.navbar-brand img {
-    width: 162px;
-    max-width: 98%;
-}
