@@ -20,41 +20,58 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />        
     </head>
-    <body class="d-flex flex-column h-100">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="sticky-top navbar navbar-expand-lg navbar-light bg-white py-3">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html">
-                        <span class="fw-bolder text-gradient">Daniel Babcock</span>
-                        <!-- <img src="/img/general/DB-Logo.png" alt="Daniel Babcock logo with three hexagons exploding"> -->
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    About
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="services.html">Services</a></li>
-                                    <li><a class="dropdown-item" href="projects.html">Projects</a></li>
-                                    <li><a class="dropdown-item" href="about.html">About Me</a></li>
-                                    <!-- <li><hr class="dropdown-divider"></li>                                     -->                                    
-                                </ul>
-                            </li>                            
-                            <li class="nav-item"><a class="nav-link nav-contact-btn" href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+    <body class="home-page bg-gradient-primary-to-secondary">
+      <main class="">
+          <!-- Navigation-->
+          <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 sticky-top">
+              <div class="container px-5">
+                  <a class="navbar-brand" href="index.html">
+                      <!-- <span class="fw-bolder text-gradient">Daniel Babcock</span> -->                        
+                      <img src="/img/general/DB-Logo.png" alt="Daniel Babcock logo with three hexagons exploding">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  About
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="services.html">Services</a></li>
+                                  <li><a class="dropdown-item" href="projects.html">Projects</a></li>
+                                  <li><a class="dropdown-item" href="about.html">About Me</a></li>
+                                  <!-- <li><hr class="dropdown-divider"></li>                                     -->                                    
+                              </ul>
+                          </li>                            
+                          <li class="nav-item nav-contact-btn">
+                              <a class="nav-link" href="contact.html">Contact</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+          
+          <div class="flip-180 sticky-top" style="margin-right: -4px; top: 62px;">
+              <svg class="waves waves2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                  <defs>
+                      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                  </defs>
+                  <g class="parallax">
+                      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                      <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                  </g>
+              </svg>
+          </div>
             <!-- Page Content-->
             <div class="container px-lg-3 my-5">
               <section>                                                        
                   <div class="text-center mb-5">
                       <h1 class="display-5 fw-bolder mb-0">
-                          <span class="text-gradient d-inline">
+                          <span class="text-white d-inline">
                               Services
                           </span>
                       </h1>
@@ -65,7 +82,7 @@
                         <img src="/img/general/coding.gif" class="card-img-top" alt="animation of guy sitting at computer coding">
                         <div class="card-body">
                           <h5 class="card-title">Web Development</h5>
-                          <p class="card-text">Focusing small businesses and improving their marketing.</p>
+                          <p class="card-text" style="padding-bottom: 48px;">Focusing small businesses and improving their marketing.</p>
                           <!-- <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a>
                           <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a> -->
                         </div>
@@ -109,7 +126,7 @@
                       <div class="card">
                         <img src="/img/general/Analytics.gif" class="card-img-top" alt="animation of guy lifting a metaphorical hood on a screen revealing internal gears while the screen is displaying data feeds">
                         <div class="card-body">
-                          <h5 class="card-title">Coming Soon!</h5>
+                          <h5 class="card-title" style="padding-top: 133px;">Coming Soon!</h5>
                           <p class="card-text">Currently adding Analytics and eCommerce to my tool belt to further cover your businesses digital needs in one place.</p>
                           <!-- <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a>
                           <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a> -->
@@ -119,7 +136,7 @@
                   </div>
               </section>
             </div>
-            <div class="container-fluid bg-gradient-primary-to-secondary">
+            <div class="container-fluid">
               <section class="py-5 text-white">
                 <div class="container px-5 my-5">
                     <div class="text-center">
